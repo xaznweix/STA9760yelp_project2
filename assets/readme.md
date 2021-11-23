@@ -1,3 +1,4 @@
+# STA9760yelp_project2
 # Analysis of Yelp Business Intelligence Data
 ## _Analyzing 10Gb of Yelp Reviews Data_
 by Wei Bin Li Fall 2021
@@ -13,12 +14,8 @@ The datasets are saved in JSON format. I primarily worked with the Business, Rev
 
 Conducted analysis in Python with the use of an AWS EMR Cluster and Jupyter Notebook
 -  Provisioned a Spark cluster on AWS EMR
-[![cluster](EMR_cluster.png)
--  Connect it to a Jupyter Notebook
-[![notebook](EMR_notebook.png)
-
 -  Ran a series of queries (in python with DataFrame API and/or Spark SQL) 
 
 [Yelp Dataset](https://www.kaggle.com/yelp-dataset/yelp-dataset) - Data source on Kaggle
-
-
+![notebook](assets/EMR_notebook.png)
+![cluster](assets/EMR_cluster.png)
